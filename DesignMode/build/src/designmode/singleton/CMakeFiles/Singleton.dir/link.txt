@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libSingleton.so -o ../../../../obj/libSingleton.so CMakeFiles/Singleton.dir/Singleton.cpp.o  -L/home/user/C++/Pro/obj  -L/usr/local/lib 

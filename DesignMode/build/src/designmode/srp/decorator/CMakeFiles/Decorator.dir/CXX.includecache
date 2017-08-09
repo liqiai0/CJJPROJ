@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Decorator.h
+
+/home/liqi/C++/DesignMode/src/designmode/srp/decorator/Decorator.cpp
+Decorator.h
+/home/liqi/C++/DesignMode/src/designmode/srp/decorator/Decorator.h
+iostream
+-
+assert.h
+-
+

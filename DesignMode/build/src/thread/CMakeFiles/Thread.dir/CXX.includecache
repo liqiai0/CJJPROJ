@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Thread.h
+pthread.h
+-
+
+/home/liqi/C++/DesignMode/src/thread/Thread.cpp
+Thread.h
+-
+unistd.h
+-
+iostream
+-
+

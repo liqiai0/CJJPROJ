@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Factory.h
+
+../include/Product.h
+
+/home/user/C++/OOPro/src/Factory/Factory.cpp
+Factory.h
+/home/user/C++/OOPro/src/Factory/Factory.h
+Product.h
+/home/user/C++/OOPro/src/Factory/Product.h
+iostream
+-
+

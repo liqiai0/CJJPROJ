@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/sht11.h
+
+/home/lq/CMakeProj/pro/src/sht11/sht11.c
+sht11.h
+/home/lq/CMakeProj/pro/src/sht11/sht11.h
+stdio.h
+/home/lq/CMakeProj/pro/src/sht11/stdio.h
+

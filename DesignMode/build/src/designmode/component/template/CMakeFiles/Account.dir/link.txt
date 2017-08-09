@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libAccount.so -o ../../../../../obj/libAccount.so CMakeFiles/Account.dir/Account.cpp.o  -L/home/liqi/C++/DesignMode/obj  -L/usr/local/lib 

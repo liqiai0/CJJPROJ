@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libsingleton.so -o ../../../../obj/libsingleton.so CMakeFiles/singleton.dir/Singleton.cpp.o  -L/home/liqi/C++/DesignMode/obj  -L/usr/local/lib 

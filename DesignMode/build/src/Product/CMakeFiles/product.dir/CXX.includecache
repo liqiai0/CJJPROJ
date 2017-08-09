@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Person.h
+iostream
+-
+string
+-
+
+../include/Product.h
+
+/home/user/C++/OOPro/src/Product/Person.cpp
+Person.h
+/home/user/C++/OOPro/src/Product/Person.h
+iostream
+-
+string
+-
+
+/home/user/C++/OOPro/src/Product/Product.cpp
+Product.h
+/home/user/C++/OOPro/src/Product/Product.h
+iostream
+-
+

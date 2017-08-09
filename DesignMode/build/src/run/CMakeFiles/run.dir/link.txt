@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,librun.so -o ../../../obj/librun.so CMakeFiles/run.dir/run.c.o  -L/home/lq/CMakeProj/pro/obj  -L/usr/local/lib 

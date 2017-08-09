@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libStrategy.so -o ../../../../../obj/libStrategy.so CMakeFiles/Strategy.dir/Strategy.cpp.o  -L/home/liqi/C++/DesignMode/obj  -L/usr/local/lib 

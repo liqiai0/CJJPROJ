@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libsht11.so -o ../../../obj/libsht11.so CMakeFiles/sht11.dir/sht11.c.o  -L/home/lq/CMakeProj/pro/obj  -L/usr/local/lib 

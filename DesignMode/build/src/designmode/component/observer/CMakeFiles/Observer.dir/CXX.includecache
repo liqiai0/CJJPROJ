@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Watched.h
+string
+-
+iostream
+-
+list
+-
+
+../include/Watcher.h
+string
+-
+iostream
+-
+
+/home/liqi/C++/DesignMode/src/designmode/component/observer/Watched.cpp
+iostream
+-
+Watcher.h
+-
+Watched.h
+-
+list
+-
+assert.h
+-
+
+/home/liqi/C++/DesignMode/src/designmode/component/observer/Watcher.cpp
+Watcher.h
+-
+string
+-
+iostream
+-
+

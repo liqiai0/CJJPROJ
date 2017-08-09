@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Strategy.h
+
+/home/liqi/C++/DesignMode/src/designmode/component/strategy/Strategy.cpp
+iostream
+-
+Strategy.h
+-
+assert.h
+-
+

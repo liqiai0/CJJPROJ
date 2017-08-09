@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Bridge.h
+
+/home/liqi/C++/DesignMode/src/designmode/srp/bridge/Bridge.cpp
+iostream
+-
+assert.h
+-
+Bridge.h
+/home/liqi/C++/DesignMode/src/designmode/srp/bridge/Bridge.h
+
